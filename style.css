@@ -1,144 +1,152 @@
 @font-face {
-    font-family: "Indie Flower";
-    src: url(/IndieFlower-Regular.ttf) format("truetype");
+  font-family: "Indie Flower";
+  src: url(/IndieFlower-Regular.ttf) format("truetype");
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
 }
-body{
+
+body {
   background-image: url();
 }
+
 .header {
-    min-height: 16rem;
-    width: 100%;
-    background-image: url(./Images/blueflower.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+  min-height: 16rem;
+  width: 100%;
+  background-image: url(./Images/blueflower.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .header h1 {
-    text-align: center;
-    line-height: 15rem;
-    font-size: 6rem;
-    color: #f0e2e2;
-    font-family: "Indie Flower";
-    font-weight: 850;
-    font-style: normal;
-    font-stretch: normal;
+  text-align: center;
+  line-height: 15rem;
+  font-size: 6rem;
+  color: #f0e2e2;
+  font-family: "Indie Flower";
+  font-weight: 850;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 .nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4a525e;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4a525e;
 }
 
 .nav-item {
-    float: left;
-    width:25%;
+  float: left;
+  width: 20%;
 }
 
 .nav-item a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
 }
 
 .nav-item a:hover {
-    background-color:#4f5763;
+  background-color: #4f5763;
 }
 
 li.dropdown {
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #3f4b4e;
-    min-width: 200px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color:#3f4b4e;
-    color:#a0a7b3;
-    font-size: 20px
+  display: inline-block;
 }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 
-  .art{
-    background-color: aqua;
-  }
-
-  .bookrec{
-    background-color: #2b363a;
-    color:#f0e2e2
-  }
-
-.title{
-    font-size: 2rem;
-    color: white;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3f4b4e;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
-.author{
-  font-size:20px;
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #3f4b4e;
+  color: #a0a7b3;
+  font-size: 20px
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.art {
+  background-color: aqua;
+}
+
+.bookrec {
+  background-color: #2b363a;
+  color: #f0e2e2
+}
+
+.title {
+  font-size: 2rem;
   color: white;
 }
-.buy a{
-  color:white;
-}
-.bookshelf {
-    display: flex
-}
-.book {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#2b363a;
-    width: 550px;
-}
-.cover img{
-    flex-basis: 70%;
-    order: 2;
-    width: 250px;
-}
-.info{
-    color: #CD5C5C;
-        padding-left: 20px;
+
+.author {
+  font-size: 20px;
+  color: white;
 }
 
-.heading{
+.buy a {
+  color: white;
+}
+
+.bookshelf {
+  display: flex
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b363a;
+  width: 550px;
+}
+
+.cover img {
+  flex-basis: 70%;
+  order: 2;
+  width: 250px;
+}
+
+.info {
+  color: #CD5C5C;
+  padding-left: 20px;
+}
+
+.heading {
   font-size: 70px;
   text-align: center;
 }
 
 
-.home{
-  background-color:#a0a7b3;
+.home {
+  background-color: #a0a7b3;
 }
- 
+
 .boring {
   color: white;
   font-size: 50px;
