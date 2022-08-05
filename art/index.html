@@ -7,9 +7,12 @@
    <link rel="stylesheet" href="../style.css">
 </head>
 
-<body class="bookrec">
+<body class="art">
    <script id="replace_with_navbar" src="/nav.js"></script>
-   <section id="books">
+   <article>
+        <h1>Art</h1>
+   </article>
+   <section id="art">
 
    </section>
    <script>
@@ -18,8 +21,8 @@
       fetch('./' + category + '.html')
       .then(res => res.text())
       .then(text => {
-         let books = document.querySelector("#books");
-         books.innerHTML = text;
+         let art = document.querySelector("#art");
+         art.innerHTML = text;
       })
  </script>
 </body>

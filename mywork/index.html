@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name=" viewpoint" content="with=device-width, inital-scale=1.0">
+    <title> Concinnity</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="bookrec">
+    <script id="replace_with_navbar" src="/nav.js"></script>
+    <section id="books">
+
+    </section>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const category = params.get("category").toLowerCase();
+        fetch('./' + category + '.html')
+            .then(res => res.text())
+            .then(text => {
+                let books = document.querySelector("#books");
+                books.innerHTML = text;
+            })
+    </script>
+</body>
+
+</html>

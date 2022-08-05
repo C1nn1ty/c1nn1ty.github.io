@@ -8,7 +8,9 @@
     padding: 0;
 
 }
-
+body{
+  background-image: url();
+}
 .header {
     min-height: 16rem;
     width: 100%;
@@ -80,10 +82,56 @@ li.dropdown {
   
   .dropdown-content a:hover {
     background-color:#3f4b4e;
-    color:#ffffff;
+    color:#a0a7b3;
     font-size: 20px
 }
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .art{
+    background-color: aqua;
+  }
+
+  .bookrec{
+    background-color: #2b363a;
+    color:#f0e2e2
+  }
+
+.title{
+    font-size: 2rem;
+    color: white;
+}
+.author{
+  font-size:20px;
+  color: white;
+}
+.buy a{
+  color:white;
+}
+.bookshelf {
+    display: flex
+}
+.book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#2b363a;
+    width: 550px;
+}
+.cover img{
+    flex-basis: 70%;
+    order: 2;
+    width: 250px;
+}
+.info{
+    color: #CD5C5C;
+        padding-left: 20px;
+}
+
+.heading{
+  font-size: 70px;
+  text-align: center;
+}
+
